@@ -1,8 +1,8 @@
 class Parlay < Formula
   desc "Enrich SBOMs with data from third party services"
   homepage "https://github.com/snyk/parlay/releases"
-  url "https://github.com/snyk/parlay/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "8cfa0876ebc64744d39b2dbec477a77e9e1cd76f9e110d407447eb9a27b1ec4d"
+  url "https://github.com/snyk/parlay/releases/download/v0.11.0/parlay-0.11.0.tar.gz"
+  sha256 "4937b0550c6da2252ff163d26652657ea11a3fd791c889b628ed568aed9c1f48"
   license "Apache-2.0"
 
   depends_on "go" => :build
