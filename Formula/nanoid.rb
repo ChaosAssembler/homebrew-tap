@@ -3,8 +3,8 @@ require "language/node"
 class Nanoid < Formula
   desc "Tiny (124 bytes), secure, URL-friendly, unique string ID generator for JavaScript"
   homepage "https://zelark.github.io/nano-id-cc/"
-  url "https://github.com/ai/nanoid/archive/refs/tags/5.0.6.tar.gz"
-  sha256 "5429977b57c0d8357d2214897eefb7095cf93264761b61d138307e2ef54afd9f"
+  url "https://github.com/ai/nanoid/archive/refs/tags/5.1.16.tar.gz"
+  sha256 "b47a9ca71ad09bedaf1dbc8102e328a38a2906e314bff17c86a6d523a513e55d"
   license "MIT"
 
   depends_on "node"
